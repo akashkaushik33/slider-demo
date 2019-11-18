@@ -1,0 +1,80 @@
+
+.bold {
+    font-weight: bold;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.pos-rel {
+    position: relative;
+}
+.strike {
+    text-decoration : line-through;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.grey {
+    color: lightgrey;
+}
+.soldOut {
+    color: grey;
+
+}
+.sold-out-div {
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    margin: 20px;
+    top: 0;
+    justify-content: center;
+    display: flex;
+}
+.sold-out-message {
+    background-color: gray;
+    margin-top: 35px;
+    opacity: 0.8;
+    color: white;
+    width: 129px;
+    height: 20%;
+}
+
+.fab {
+    position: absolute;
+    top: 45%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.fab img {
+    width: 20px;
+}
+.fab button {
+    padding: 0px;
+}
+
+.left {
+    left: -15px;
+}
+
+.right {
+    right: -15px;
+}
+
+.disabled-btn {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+.slide-enter-active {
+    transition: 0.4s;
+  }
+.slide-leave-active {
+    transition: 0s;
+}
+.slide-enter {
+    transform: translate(100% , 0);
+}
+.slide-leave-to {
+    transform: translate(-100%, 0);
+}
