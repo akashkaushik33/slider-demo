@@ -36,7 +36,6 @@ export default {
 <style scoped lang="css">
 .card {
   background: white;
-  border: 1px solid black;
   margin: 20px;
   height: 350px;
   width: 200px;
