@@ -1,4 +1,4 @@
-# sociolla-assignment
+# slider-demo(sociolla)
 
 ## Project setup
 ```
